@@ -8,15 +8,29 @@ body{
 .clearBoth{
   clear: both;
 }
+.FooterList{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: grey;
+}
 .FirstListingFooter{
   font-family: 'helvetica';
   font-weight: bold;
   list-style: none;
+  color: #000000;
 }
 .ListingFooter{
   list-style: none;
 }
-.Footer{
+.FooterBottom1, .FooterBottom2{
+  font-size: 10px;
+  color: grey;
+}
+.FooterBottom1{
+
+}
+.FooterBottom2{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }

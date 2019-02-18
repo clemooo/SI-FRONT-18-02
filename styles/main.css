@@ -9,7 +9,7 @@ body{
   clear: both;
 }
 footer{
-  background-color: lightgrey;
+  background-color: #F2F2F2;
 }
 .FooterList{
   display: flex;
@@ -19,7 +19,6 @@ footer{
 }
 .FirstListingFooter{
   font-family: 'helvetica';
-  font-weight: bold;
   list-style: none;
   color: #000000;
 }

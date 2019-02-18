@@ -8,6 +8,9 @@ body{
 .clearBoth{
   clear: both;
 }
+footer{
+  background-color: lightgrey;
+}
 .FooterList{
   display: flex;
   justify-content: center;
@@ -27,10 +30,18 @@ body{
   font-size: 10px;
   color: grey;
 }
-.FooterBottom1{
-
+.FooterBottom1 p{
+  padding: 0px 285px;
 }
 .FooterBottom2{
   display: flex;
+  justify-content: space-around;
+  padding: 0px 28px;
+}
+.Region{
+  display: flex;
   justify-content: flex-end;
+}
+.Region img{
+  padding: 8px 5px;
 }

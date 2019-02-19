@@ -90,7 +90,7 @@ footer div p a:hover{
   border-right: 1px solid lightgrey;
   padding-right: 2.5%;
 }
-@media screen and (max-width: 720px){ /* smartphones à écran HD et moin s*/
+@media screen and (max-width: 720px){ /* smartphones à écran HD et moins*/
 
 }
 @media screen and (min-width: 721px) and (max-width: 1080px){ /* smartphones à écran entre HD et FullHD */
@@ -116,6 +116,43 @@ footer div p a:hover{
     padding-top: 11px;
   }
 }
-@media screen and (min-width: 1920px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */
+@media screen and (min-width: 1921px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */
 
+}
+
+
+/* page specs */
+
+
+header{
+  display: flex;
+  justify-content: center;
+  opacity: 0.85;
+  height: 60px; /* Car j'y arrive pas avec clear:both*/
+}
+.HeaderContainer{
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkgrey;
+  width: 100%;
+}
+.HeaderHomePod{
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 1%; 
+  color: black;
+}
+.HeaderChild{
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.HeaderBuyButton{
+  height: 25px;
+  margin-top: 10px;
+}
+#bodytemp{
+  width: 65%;
+  margin: 0 auto;
 }

@@ -21,6 +21,30 @@ body{
   width: 65%;
   margin: 0px auto;
 }
+
+h1{
+  font-size: 80px;
+  text-align: center;
+}
+h2{
+  font-size: 60px;
+  text-align: center;
+}
+
+div .firstImg{
+  width: 50%;
+  justify-content: flex-end;
+}
+.firstP{
+  text-align: center;
+  font-size: 20px;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .container{
   width:960px;
   margin:0 auto;

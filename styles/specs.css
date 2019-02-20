@@ -4,8 +4,21 @@ body{
   font-family: 'helvetica'
 }
 
+a{
+  color: #0070C9;
+}
+
+#specs_homepods{
+  height: 350px;
+}
+
+#specs_subtitle{
+  font-size: 25px;
+}
+
 h2{
   font-family: 'SF';
+  font-size: 40px;
 }
 
 h3{
@@ -36,25 +49,27 @@ td{
   padding-left: 10px;
 }
 
-ul, li{
+.specs_ul{
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.listStyleNone{
-  list-style: none;
+.specs_ul li{
+  padding: 0;
+  margin: 0;
 }
 
-.compatibilite{
+.specs_compatibilite{
   display: flex;
 }
 
-.bloc_1_3{
+.specs_bloc_1_3{
   flex-direction: row;
   padding: 10px;
 }
 
-.fonctionnality{
+.specs_fonctionnality{
   padding-left: 20px;
 }
 
@@ -74,10 +89,8 @@ section div{
   padding-top: 50px;
 }
 
-.headerSpecsLeft{
-}
-
-
-.headerSpecsLeft p{
-
+.specs_colors{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }

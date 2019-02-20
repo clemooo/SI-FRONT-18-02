@@ -15,7 +15,7 @@ body{
 }
 footer{
   background-color: #000000;
-  padding-bottom: 1%;
+  padding-bottom: 13px;
 }
 footer a{
   text-decoration: none;
@@ -68,7 +68,8 @@ footer div p a:hover{
 .FooterBottom3{
   font-size: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  text-align: center;
 }
 .FooterRegion{
   display: flex;
@@ -88,7 +89,7 @@ footer div p a:hover{
 }
 .FooterBorder{
   border-right: 1px solid lightgrey;
-  padding-right: 2.5%;
+  padding-right: 27px;
 }
 @media screen and (max-width: 720px){ /* smartphones à écran HD et moins*/
 
@@ -119,10 +120,10 @@ footer div p a:hover{
     font-size: 12px;
   }
   .FooterBorder{
-    padding-right: 4.5%;
+    padding-right: 57px;
   }
   .FooterRegion img{
-    padding-top: 11px;
+    padding-top: 12px;
   }
 }
 @media screen and (min-width: 1921px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */

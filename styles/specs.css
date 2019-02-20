@@ -16,12 +16,12 @@ a{
   font-size: 25px;
 }
 
-h2{
+.headerSpecs h2{
   font-family: 'SF';
   font-size: 40px;
 }
 
-h3{
+table h3{
   padding: 0;
   margin: 0;
 }
@@ -73,13 +73,13 @@ td{
   padding-left: 20px;
 }
 
-section{
+.headerSpecs{
   display: flex;
   width: 70%;
   margin: 0 auto;
 }
 
-section div{
+.headerSpecs div{
   flex-direction: row;
   width: 50%;
 }
@@ -93,4 +93,41 @@ section div{
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+}
+
+.environments{
+  width:70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #202020;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.environment h2{
+  font-family: 'SF';
+  font-size: 26px;
+  color:#76C7B3;
+}
+
+.header_environment{
+  width: 100%;
+  position: relative;
+}
+
+.environment{
+  width: 45%;
+  padding: 5px;
+}
+
+
+.green_logo{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.header_environment img{
+  height:30px;
 }

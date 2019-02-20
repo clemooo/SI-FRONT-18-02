@@ -89,7 +89,7 @@ body{
 	margin: 0px 15px 0px 15px;
 }
 
-li:hover , li.current{
+li .bulletSlider:hover , li .current:hover{
   background-color: #FFFFFF;
   opacity: 0.85;
 
@@ -181,16 +181,16 @@ footer div p a:hover{
 
 }
 @media screen and (min-width: 721px) and (max-width: 1080px){ /* smartphones à écran entre HD et FullHD */
-  
+
 }
 @media screen and (min-width: 1081px) and (max-width: 1280px){ /* anciens laptops <2007 */
-  
+
 }
 @media screen and (min-width: 1281px) and (max-width: 1366px){ /* anciens laptops <2015 */
   /* 1ers footer et header codés sur cette résolution = baseline*/
 }
 @media screen and (min-width: 1367px) and (max-width: 1600px){ /* anciens laptops haut de gamme <2010 */
-  
+
 }
 @media screen and (min-width: 1601px) and (max-width: 1920px){ /* standard laptop desktop */
   .FooterList{
@@ -236,7 +236,7 @@ header{
 .HeaderHomePod{
   font-size: 20px;
   font-weight: bold;
-  padding-left: 1%; 
+  padding-left: 1%;
   color: black;
   font-family: 'helvetica'
 }

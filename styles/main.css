@@ -21,6 +21,30 @@ body{
   width: 65%;
   margin: 0px auto;
 }
+
+h1{
+  font-size: 80px;
+  text-align: center;
+}
+h2{
+  font-size: 60px;
+  text-align: center;
+}
+
+div .firstImg{
+  width: 50%;
+  justify-content: flex-end;
+}
+.firstP{
+  text-align: center;
+  font-size: 20px;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .container{
   width:960px;
   margin:0 auto;
@@ -92,7 +116,7 @@ body{
 li .bulletSlider:hover , li .current:hover{
   background-color: #FFFFFF;
   opacity: 0.85;
-
+  
 }
 
 a{
@@ -175,24 +199,66 @@ footer div p a:hover{
 }
 .FooterBorder{
   border-right: 1px solid lightgrey;
-  padding-right: 27px;
+  padding-right: 31px;
 }
 @media screen and (max-width: 720px){ /* smartphones à écran HD et moins*/
 
 }
-@media screen and (min-width: 721px) and (max-width: 1080px){ /* smartphones à écran entre HD et FullHD */
+@media screen and (min-width: 721px) and (max-width: 1024px){ /* anciens laptops ~2004 */
 
 }
-@media screen and (min-width: 1081px) and (max-width: 1280px){ /* anciens laptops <2007 */
-
+@media screen and (min-width: 1025px) and (max-width: 1080px){ /* smartphones à écran entre HD+ et FullHD */
+  footer{
+    margin-top: 30px;
+  }
+  .FooterList{
+    flex-direction: column;
+    align-items: center;
+    font-size: 9px;
+  }
+  .FooterBottom3 a{
+    font-size: 9px;
+  }
+  .FooterBottom1, .FooterBottom2{
+    font-size: 9px;
+  }
+  .FooterBottom3{
+    font-size: 9px;
+  }
+  .FooterBorder{
+    padding-right: 31px;
+  }
+  .FooterRegion img{
+    padding-top: 9px;
+  }
+}
+@media screen and (min-width: 1081px) and (max-width: 1280px){ /* anciens laptops <2008 */
+  .FooterList{
+    font-size: 9px;
+  }
+  .FooterBottom3 a{
+    font-size: 9px;
+  }
+  .FooterBottom1, .FooterBottom2{
+    font-size: 9px;
+  }
+  .FooterBottom3{
+    font-size: 9px;
+  }
+  .FooterBorder{
+    padding-right: 31px;
+  }
+  .FooterRegion img{
+    padding-top: 9px;
+  }
 }
 @media screen and (min-width: 1281px) and (max-width: 1366px){ /* anciens laptops <2015 */
   /* 1ers footer et header codés sur cette résolution = baseline*/
 }
 @media screen and (min-width: 1367px) and (max-width: 1600px){ /* anciens laptops haut de gamme <2010 */
-
+  
 }
-@media screen and (min-width: 1601px) and (max-width: 1920px){ /* standard laptop desktop */
+@media screen and (min-width: 1601px) and (max-width: 1920px){ /* standard laptop and desktop */
   .FooterList{
     font-size: 12px;
   }
@@ -238,7 +304,7 @@ header{
   font-weight: bold;
   padding-left: 1%;
   color: black;
-  font-family: 'helvetica'
+  font-family: 'helvetica';
 }
 .HeaderChild{
   width: 600px;
@@ -250,7 +316,7 @@ header{
 .HeaderChild a{
   text-decoration: none;
   color: black;
-  font-family: 'helvetica'
+  font-family: 'helvetica';
 }
 .HeaderBuyButton{
   height: 25px;

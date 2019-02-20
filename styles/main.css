@@ -1,6 +1,15 @@
+@font-face{
+  font-family: 'helvetica';
+  src: url('../fonts/Helvetica.ttf');
+  font-family: 'SF';
+  src: url('../fonts/SFCompactDisplay-Light.otf');
+}
+
 body{
   margin:0;
   padding:0;
+  background-color: #000;
+  color: #EFEFEF;
   font-family: 'helvetica','arial' , sans-serif;
   font-size:14px;
   color:#444;

@@ -216,6 +216,7 @@ footer div p a:hover{
 @media screen and (min-width: 1921px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */
 
 }
+
 /* page specs */
 
 
@@ -255,9 +256,4 @@ header{
 .HeaderBuyButton{
   height: 25px;
   margin-top: 12px;
-}
-#bodytemp{
-  width: 65%;
-  margin: 0 auto;
-  padding-bottom: 6px;
 }

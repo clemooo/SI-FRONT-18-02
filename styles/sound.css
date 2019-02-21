@@ -6,20 +6,23 @@
 
 .siri{
   width: 50%;
-  margin: 0 auto;
+  margin: 200px auto 0px auto;
 }
+
 h1{
   font-size: 60px;
   font-family: 'SF';
   margin: 0 auto;
   width: 80%;
 }
+
 h2{
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'SF';
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  margin-top: 150px;
 }
 
 h3{
@@ -109,7 +112,6 @@ video {
 li .bulletSlider:hover , li .current:hover{
   background-color: #FFFFFF;
   opacity: 0.85;
-
 }
 
 a{

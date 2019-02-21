@@ -75,6 +75,48 @@ nav img{
   padding-top: 10px;
 }
 
+/* 4 sections en bas de page*/
+
+.fourContainer{
+  display: flex;
+  justify-content: center;
+  padding-top: 4;
+  padding-bottom: 56;
+  margin:100px auto;
+}
+
+
+.mini_article{
+  margin-top:10px;
+  align-items: stretch;
+}
+
+
+.mini_article{
+  width: 220px;
+  text-align: center;
+  position:relative;
+  padding:10px;
+}
+
+.fourAllContainer{
+  display: flex;
+}
+
+.plus{
+  color:#0070C9;
+}
+
+.infos{
+  font-size: 10px;
+}
+
+.fourAllContainer img{
+  height: 40px;
+  width:auto;
+}
+
+
 /*
 FOOTER
  */

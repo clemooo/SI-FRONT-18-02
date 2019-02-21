@@ -53,6 +53,12 @@ header{
   margin-top: -18px;
   padding-right: 10px;
 }
+.HeaderAccueil:hover {
+  color: #C2C2C2;
+}
+.HeaderCaracteristiques:hover {
+  color: #C2C2C2;
+}
 .HeaderChild a{
   text-decoration: none;
   color: #EFEFEF;

@@ -8,18 +8,48 @@ a{
   color: #0070C9;
 }
 
-#specs_homepods{
-  height: 350px;
-}
+/* Header specs */
 
-#specs_subtitle{
+.headerSpecs h3{
+  font-family: 'SF';
   font-size: 25px;
 }
 
-.headerSpecs h2{
-  font-family: 'SF';
-  font-size: 40px;
+.headerSpecs{
+  width: 70%;
+  margin: 0 auto;
 }
+
+.headerSpecsTop{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerSpecsRight{
+  width: 40%;
+}
+
+.headerSpecsLeft{
+  width: 30%;
+}
+
+.headerSpecsLeft img{
+  width:100%;
+}
+
+.headerSpecsMiddle{
+  padding-left: 20px;
+  width:30%;
+}
+
+.specs_colors{
+  width:25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Tableau specs */
 
 table h3{
   padding: 0;
@@ -73,27 +103,7 @@ td{
   padding-left: 20px;
 }
 
-.headerSpecs{
-  display: flex;
-  width: 70%;
-  margin: 0 auto;
-}
-
-.headerSpecs div{
-  flex-direction: row;
-  width: 50%;
-}
-
-.headerSpecsRight{
-  text-align: center;
-  padding-top: 50px;
-}
-
-.specs_colors{
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-}
+/* Environnement specs */
 
 .environments{
   width:70%;

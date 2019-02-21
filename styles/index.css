@@ -76,3 +76,35 @@ p{
   width:90%;
   height: auto;
 }
+
+/* 4 sections en bas de page*/
+
+.fourContainer{
+  width:80%;
+  display: flex;
+  justify-content: center;
+  padding-top: 4;
+  padding-bottom: 56;
+  margin:0 auto;
+}
+
+
+.mini_article{
+  margin-top:10px;
+  align-items: stretch;
+}
+
+
+.mini_article{
+  width: 304px;
+  text-align: center;
+  position:relative;
+  padding:30px 25px 60px 25px;
+}
+
+.fourAllContainer{
+  display: flex;
+}
+.plus h3{
+  margin-top:0;
+}

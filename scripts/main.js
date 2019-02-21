@@ -65,23 +65,3 @@ function playSlider()
     5000
   )
 }
-
-//responsive
-
-const FirstListingFooter = document.querySelectorAll(".FirstListingFooter")
-
-for(let i=0; i<FirstListingFooter.length; i++)
-{
-  FirstListingFooter[i].addEventListener('click', function(){
-    if (FirstListingFooter[i].classList.contains("Open")){
-      FirstListingFooter[i].classList.remove("Open")
-    }
-    else {
-      let temp = document.querySelector(".Open")
-      if (temp != null){
-        temp.classList.remove("Open")
-      }
-      this[i].classList.add("Open")               // this.classList.add("is-open")
-    }
-  }
-)}

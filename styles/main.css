@@ -185,84 +185,106 @@ FOOTER
    padding-right: 31px;
  }
 
- @media screen and (max-width: 720px){ /* smartphones à écran HD et moins*/
+@media screen and (max-width: 720px){ /* smartphones à écran HD et moins*/
 
- }
- @media screen and (min-width: 721px) and (max-width: 1024px){ /* anciens laptops ~2004 */
+}
+@media screen and (min-width: 721px) and (max-width: 1024px){ /* anciens laptops ~2004 */
 
- }
- @media screen and (min-width: 1025px) and (max-width: 1080px){ /* smartphones à écran entre HD+ et FullHD */
-   footer{
-     margin-top: 30px;
-   }
-   .FooterList{
-     flex-direction: column;
-     align-items: center;
-     font-size: 9px;
-   }
-   .FooterBottom3 a{
-     font-size: 9px;
-   }
-   .FooterBottom1, .FooterBottom2{
-     font-size: 9px;
-   }
-   .FooterBottom3{
-     font-size: 9px;
-   }
-   .FooterBorder{
-     padding-right: 31px;
-   }
-   .FooterRegion img{
-     padding-top: 9px;
-   }
- }
- @media screen and (min-width: 1081px) and (max-width: 1280px){ /* anciens laptops <2008 */
-   .FooterList{
-     font-size: 9px;
-   }
-   .FooterBottom3 a{
-     font-size: 9px;
-   }
-   .FooterBottom1, .FooterBottom2{
-     font-size: 9px;
-   }
-   .FooterBottom3{
-     font-size: 9px;
-   }
-   .FooterBorder{
-     padding-right: 31px;
-   }
-   .FooterRegion img{
-     padding-top: 9px;
-   }
- }
+}
+@media screen and (min-width: 1025px) and (max-width: 1080px){ /* smartphones à écran entre HD+ et FullHD */
+  footer{
+    margin-top: 30px;
+  }
+  .FooterBottom3 a{
+    font-size: 9px;
+  }
+  .FooterBottom1, .FooterBottom2{
+    font-size: 9px;
+  }
+  .FooterBottom3{
+    font-size: 9px;
+  }
+  .FooterBorder{
+    padding-right: 17px;
+  }
+  .FooterRegion img{
+    padding-top: 9px;
+  }
+  .FooterList{
+    flex-direction: column;
+  }
+  .FooterPart2 ul, .FooterPart3 ul, .FooterPart4 ul, .FooterPart5 ul{
+    font-size: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .FirstListingFooter{
+    font-size: 32px;
+    width: 100%;
+  }
+  .ListingFooter fait pour le responsive js qui marche pas{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .FirstListingFooter.Open .ListingFooter{  /* Marche pas*/
+    display: flex;
+  }
+  .FooterList ul{
+    width: 650px;
+    margin-left: -20px;
+  }
+  #ResponsifTest{
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 1081px) and (max-width: 1280px){ /* anciens laptops <2008 */
+  .FooterList{
+    font-size: 9px;
+  }
+  .FooterBottom3 a{
+    font-size: 9px;
+  }
+  .FooterBottom1, .FooterBottom2{
+    font-size: 9px;
+  }
+  .FooterBottom3{
+    font-size: 9px;
+  }
+  .FooterBorder{
+    padding-right: 31px;
+  }
+  .FooterRegion img{
+    padding-top: 9px;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1366px){ /* anciens laptops <2015 */
+  /* 1ers footer et header codés sur cette résolution = baseline*/
+}
+@media screen and (min-width: 1367px) and (max-width: 1600px){ /* anciens laptops haut de gamme <2010 */
+  
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px){ /* standard laptop and desktop */
+  .FooterList{
+    font-size: 12px;
+  }
+  .FooterBottom3 a{
+    font-size: 12px;
+  }
+  .FooterBottom1, .FooterBottom2{
+    font-size: 12px;
+  }
+  .FooterBottom3{
+    font-size: 12px;
+  }
+  .FooterBorder{
+    padding-right: 57px;
+  }
+  .FooterRegion img{
+    padding-top: 12px;
+  }
+}
+@media screen and (min-width: 1921px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */
 
- @media screen and (min-width: 1281px) and (max-width: 1366px){ /* anciens laptops <2015 */
-   /* 1ers footer et header codés sur cette résolution = baseline*/
- }
- @media screen and (min-width: 1367px) and (max-width: 1600px){ /* anciens laptops haut de gamme <2010 */
-
- }
- @media screen and (min-width: 1601px) and (max-width: 1920px){ /* standard laptop and desktop */
-   .FooterList{
-     font-size: 12px;
-   }
-   .FooterBottom3 a{
-     font-size: 12px;
-   }
-   .FooterBottom1, .FooterBottom2{
-     font-size: 12px;
-   }
-   .FooterBottom3{
-     font-size: 12px;
-   }
-   .FooterBorder{
-     padding-right: 57px;
-   }
-   .FooterRegion img{
-     padding-top: 12px;
-   }
- }
- @media screen and (min-width: 1921px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */
-
- }
+}

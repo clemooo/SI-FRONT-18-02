@@ -103,8 +103,9 @@ video {
 .button{
   position: absolute;
   display: flex;
-	bottom: -65px;
+	bottom: 0px;
 	left: 340px;
+  cursor: pointer;
 }
 .bulletSlider {
   display: flex;
@@ -115,8 +116,8 @@ video {
 	margin: 0px 15px 0px 15px;
 }
 
-li .bulletSlider:hover , li .current:hover{
-  background-color: #FFFFFF;
+li .bulletSlider:hover , li .dotCurrent{
+  background-color: white;
   opacity: 0.85;
 }
 

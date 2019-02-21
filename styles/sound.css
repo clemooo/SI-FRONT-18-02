@@ -4,16 +4,39 @@
   text-align: center;
 }
 
+.siri{
+  width: 50%;
+  margin: 0 auto;
+}
+h1{
+  font-size: 60px;
+  font-family: 'SF';
+  margin: 0 auto;
+  width: 80%;
+}
+h2{
+  font-size: 40px;
+  font-family: 'SF';
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
 h3{
   font-size: 40px;
   font-family: 'SF';
+  padding-bottom: 10px;
 }
-
 video {
   max-width: 100%;
   height: auto;
 }
 
+.firstP{
+  width: 75%;
+  margin: 0 auto;
+  font-size: 20px;
+}
 /* SLIDER */
 
 .sliderContainer{
@@ -40,6 +63,7 @@ video {
   margin-left: 20px;
   margin-top: 10px;
   color: #EFEFEF;
+  cursor: pointer;
 }
 
 .size{
@@ -54,6 +78,7 @@ video {
   font-size: 45px;
   color: #606060;
   z-index: 10;
+  cursor: pointer;
 }
 
 .right{
@@ -63,6 +88,7 @@ video {
   font-size: 45px;
   color: #606060;
   z-index: 10;
+  cursor: pointer;
 }
 
 .button{

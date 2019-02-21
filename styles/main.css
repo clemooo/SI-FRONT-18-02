@@ -71,6 +71,7 @@ nav ul{
   margin-right: 220px;
 }
 
+/* 4 divs bottom */
 
 .mini_article{
   width: 220px;
@@ -81,6 +82,7 @@ nav ul{
 
 .fourAllContainer{
   display: flex;
+  margin: 200px auto;
 }
 
 .plus{

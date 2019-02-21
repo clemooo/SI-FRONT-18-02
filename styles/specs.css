@@ -9,6 +9,14 @@ a{
 }
 
 /* Header specs */
+header{
+  margin-top: 0px;
+}
+
+.logo{
+  width: 30px;
+  margin-bottom: 5px;
+}
 
 .headerSpecs h3{
   font-family: 'SF';

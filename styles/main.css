@@ -35,6 +35,10 @@ header{
   margin-top: -66px;
   z-index: 10;
 }
+.logo{
+    width: 30px;
+    margin-bottom: 5px;
+  }
 
 img .logo {
   width: 15px;
@@ -58,7 +62,7 @@ nav{
 
 
 nav li a.current, nav li a:hover{
-  padding-bottom: 8px;
+  padding-bottom: 15px;
   border-bottom:3px solid  #0070C9;
   display: inline;
 }
@@ -263,7 +267,7 @@ FOOTER
   /* 1ers footer et header codés sur cette résolution = baseline*/
 }
 @media screen and (min-width: 1367px) and (max-width: 1600px){ /* anciens laptops haut de gamme <2010 */
-  
+
 }
 @media screen and (min-width: 1601px) and (max-width: 1920px){ /* standard laptop and desktop */
   .FooterList{

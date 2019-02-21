@@ -25,31 +25,29 @@ header{
   color:#EFEFEF;
   padding-left:100px;
   padding-top: 20px;
-  padding-right: 100px;
   position: fixed;
   width: 100%;
   margin-top: 0px;
   z-index: 10;
 }
 .logo{
-    width: 30px;
-    margin-bottom: 5px;
-  }
+  width: 30px;
+  margin-bottom: 5px;
+}
 
-img .logo {
+img .logo{
   width: 15px;
 	height: 20px;
   padding-bottom: 10px;
 }
 
 nav li a{
+  margin: 0px 24px;
   display: flex;
-  margin:0px 24px;
-  display:inline-block;
-  color:white;
-  text-decoration:none;
-  font-size:16px;
-  font-weight:bold;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 nav{
@@ -58,9 +56,9 @@ nav{
 
 
 nav li a.current, nav li a:hover{
-  padding-bottom: 15px;
-  border-bottom:3px solid  #0070C9;
-  display: inline;
+  padding-bottom: 30px;
+  border-bottom: 3px solid  #0070C9;
+  display: flex;
 }
 
 nav ul{
@@ -78,6 +76,10 @@ nav ul{
   text-align: center;
   position:relative;
   padding:10px;
+}
+
+.mini_article a{
+  text-decoration: none;
 }
 
 .fourAllContainer{
@@ -104,90 +106,91 @@ nav ul{
 FOOTER
  */
 
- .FooterBackground{
-   line-height: 2;
-   width: 65%;
-   margin: 0px auto;
- }
- footer{
-   background-color: #000000;
-   padding-bottom: 13px;
- }
- footer a{
-   text-decoration: none;
-   color: grey;
- }
- footer a:hover{
-   text-decoration: underline;
-   color: #EFEFEF;
- }
- footer div p a{
-   text-decoration: none;
-   color: #0070C9;
- }
- footer div p a:hover{
-   text-decoration: underline;
-   color: #0070CE;
- }
- .FooterBottom3 a{
-   font-size: 10px;
-   color: grey;
-   text-decoration: none;
- }
- .FooterBottom3 a:hover{
-   text-decoration: underline;
- }
- .FooterList{
-   display: flex;
-   justify-content: center;
-   font-size: 10px;
- }
- .FirstListingFooter{
-   font-family: 'helvetica';
-   list-style: none;
-   color: #EFEFEF;
-   font-weight: bold;
- }
- .ListingFooter{
-   list-style: none;
- }
- .FooterBottom2{
-   border-top: 1px solid lightgrey;
-   border-top-width: 90%;
- }
- .FooterBottom1, .FooterBottom2{
-   font-size: 10px;
-   color: #494949;
-   display: flex;
-   justify-content: space-between;
- }
- .FooterBottom3{
-   font-size: 10px;
-   display: flex;
-   justify-content: space-between;
-   text-align: center;
- }
+.FooterBackground{
+  line-height: 2;
+  width: 65%;
+  margin: 0px auto;
+}
+footer{
+  background-color: #000000;
+  padding-bottom: 13px;
+}
+footer a{
+  text-decoration: none;
+  color: grey;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: #EFEFEF;
+}
+footer div p a{
+  text-decoration: none;
+  color: #0070C9;
+}
+footer div p a:hover{
+  text-decoration: underline;
+  color: #0070CE;
+}
+.FooterBottom3 a{
+  font-size: 10px;
+  color: grey;
+  text-decoration: none;
+}
+.FooterBottom3 a:hover{
+  text-decoration: underline;
+}
+.FooterList{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+.FirstListingFooter{
+  font-family: 'helvetica';
+  list-style: none;
+  color: #EFEFEF;
+  font-weight: bold;
+}
+.ListingFooter{
+  list-style: none;
+}
+.FooterBottom2{
+  border-top: 1px solid lightgrey;
+  border-top-width: 90%;
+}
+.FooterBottom1, .FooterBottom2{
+  display: flex;
+  justify-content: space-between;
+}
+.FooterBottom p{
+  font-size: 10px;
+  color: #494949;
+}
+.FooterBottom3{
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
  .FooterRegion{
-   display: flex;
-   justify-content: flex-end;
- }
- .FooterRegion img{
-  padding-top: 10px;
- }
- .FooterRegion a{
-   color: grey;
-   text-decoration: none;
-   margin-top: 8px;
-   padding-left: 4px;
- }
- .FooterRegion a:hover{
-   text-decoration: underline;
- }
- .FooterBorder{
-   border-right: 1px solid lightgrey;
-   padding-right: 31px;
- }
-
+  display: flex;
+  justify-content: flex-end;
+}
+.FooterRegion img{
+ padding-top: 10px;
+}
+.FooterRegion a{
+  color: grey;
+  text-decoration: none;
+  margin-top: 8px;
+  padding-left: 4px;
+}
+.FooterRegion a:hover{
+  text-decoration: underline;
+}
+.FooterBorder{
+  border-right: 1px solid lightgrey;
+  padding-right: 31px;
+}
 @media screen and (max-width: 720px){ /* smartphones à écran HD et moins*/
   footer{
     margin-top: 30px;
@@ -397,21 +400,21 @@ FOOTER
 }
 @media screen and (min-width: 1921px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */
   .FooterList{
-    font-size: 12px;
+    font-size: 16px;
   }
   .FooterBottom3 a{
-    font-size: 12px;
+    font-size: 16px;
   }
   .FooterBottom1, .FooterBottom2{
-    font-size: 12px;
+    font-size: 16px;
   }
   .FooterBottom3{
-    font-size: 12px;
+    font-size: 16px;
   }
   .FooterBorder{
-    padding-right: 57px;
+    padding-right: 70px;
   }
   .FooterRegion img{
-    padding-top: 12px;
+    padding-top: 15px;
   }
 }

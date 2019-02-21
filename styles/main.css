@@ -14,10 +14,6 @@ body{
   font-size:14px;
 }
 
-.ClearBoth{
-  clear: both;
-}
-
 /*
 HEADER
  */
@@ -86,6 +82,7 @@ nav ul{
 
 .fourAllContainer{
   display: flex;
+  justify-content: center;
   margin: 200px auto;
 }
 

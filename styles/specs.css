@@ -26,6 +26,7 @@ header{
 .headerSpecs{
   width: 70%;
   margin: 0 auto;
+  padding-top: 80px;
 }
 
 .headerSpecsTop{

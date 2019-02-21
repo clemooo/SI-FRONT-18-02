@@ -2,19 +2,22 @@ section{
   margin-bottom: 200px;
 }
 
+h1, h2, h3{
+  font-family: 'SF';
+}
+
 h1{
   font-size: 80px;
   text-align: center;
 }
 
 h2{
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
 }
 
 h3{
   font-size: 40px;
-  font-family: 'SF';
 }
 
 p{
@@ -70,17 +73,18 @@ p{
 
 .indexSiri h3{
   text-align: right;
+  padding-right: 40px;
 }
 
 #musics{
-  width:90%;
+  width:100%;
   height: auto;
+  margin-bottom: 40px;
 }
 
 /* 4 sections en bas de page*/
 
 .fourContainer{
-  width:80%;
   display: flex;
   justify-content: center;
   padding-top: 4;
@@ -96,15 +100,25 @@ p{
 
 
 .mini_article{
-  width: 304px;
+  width: 220px;
   text-align: center;
   position:relative;
-  padding:30px 25px 60px 25px;
+  padding:10px;
 }
 
 .fourAllContainer{
   display: flex;
 }
-.plus h3{
-  margin-top:0;
+
+.plus{
+  color:#0070C9;
+}
+
+.infos{
+  font-size: 10px;
+}
+
+.fourAllContainer img{
+  height: 40px;
+  width:auto;
 }

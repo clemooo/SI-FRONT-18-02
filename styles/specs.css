@@ -57,9 +57,11 @@ a{
 
 /* Tableau specs */
 
-table h3{
+table .H3{
   padding: 0;
   margin: 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 table{

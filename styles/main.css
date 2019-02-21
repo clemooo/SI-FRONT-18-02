@@ -28,7 +28,7 @@ header{
   padding-right: 100px;
   position: fixed;
   width: 100%;
-  margin-top: -66px;
+  margin-top: 0px;
   z-index: 10;
 }
 .logo{

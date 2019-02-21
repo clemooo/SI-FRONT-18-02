@@ -13,277 +13,14 @@ body{
   font-family: 'helvetica','arial' , sans-serif;
   font-size:14px;
 }
+
 .ClearBoth{
   clear: both;
 }
-.FooterBackground{
-  line-height: 2;
-  width: 65%;
-  margin: 0px auto;
-}
 
-h1{
-  font-size: 80px;
-  text-align: center;
-}
-h2{
-  font-size: 60px;
-  text-align: center;
-}
-
-div .firstImg{
-  width: 50%;
-  justify-content: flex-end;
-}
-.firstP{
-  text-align: center;
-  font-size: 20px;
-}
-
-video {
-  max-width: 100%;
-  height: auto;
-}
-
-.container{
-  width:960px;
-  margin:0 auto;
-  background-color: black;
-}
-
-.slider{
-  width:100%;
-  height: 480px;
-  position:relative;
-  overflow: hidden;
-}
-
-.sliderContainer{
-  margin-top: 20px;
-  position:absolute;
-  display:flex;
-  transition: ease-in 0.5s all;
-  will-change: left;
-}
-
-.text{
-  margin: 0;
-  font-size: 20px;
-  width: 540px;
-  height: 480px;
-  margin-left: 20px;
-  margin-top: 10px;
-  color: #EFEFEF;
-}
-.size{
-  width: 400px;
-  height: 480px;
-}
-
-.left{
-  position : absolute;
-  left: 0px;
-  top: 50%;
-  font-size: 45px;
-  color: #606060;
-  z-index: 10;
-}
-
-.right{
-  position : absolute;
-  right: 0px;
-  top: 50%;
-  font-size: 45px;
-  color: #606060;
-  z-index: 10;
-}
-
-.button{
-  position: absolute;
-  display: flex;
-	bottom: -65px;
-	left: 340px;
-}
-.bulletSlider {
-  display: flex;
-  border: 2px solid white;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-	margin: 0px 15px 0px 15px;
-}
-
-li .bulletSlider:hover , li .current:hover{
-  background-color: #FFFFFF;
-  opacity: 0.85;
-  
-}
-
-a{
-  text-decoration: none;
-}
-
-footer{
-  background-color: #000000;
-  padding-bottom: 13px;
-}
-footer a{
-  text-decoration: none;
-  color: grey;
-}
-footer a:hover{
-  text-decoration: underline;
-  color: #EFEFEF;
-}
-footer div p a{
-  text-decoration: none;
-  color: #0070C9;
-}
-footer div p a:hover{
-  text-decoration: underline;
-  color: #0070CE;
-}
-.FooterBottom3 a{
-  font-size: 10px;
-  color: grey;
-  text-decoration: none;
-}
-.FooterBottom3 a:hover{
-  text-decoration: underline;
-}
-.FooterList{
-  display: flex;
-  justify-content: center;
-  font-size: 10px;
-}
-.FirstListingFooter{
-  font-family: 'helvetica';
-  list-style: none;
-  color: #EFEFEF;
-  font-weight: bold;
-}
-.ListingFooter{
-  list-style: none;
-}
-.FooterBottom2{
-  border-top: 1px solid lightgrey;
-  border-top-width: 90%;
-}
-.FooterBottom1, .FooterBottom2{
-  font-size: 10px;
-  color: #494949;
-  display: flex;
-  justify-content: space-between;
-}
-.FooterBottom3{
-  font-size: 10px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-.FooterRegion{
-  display: flex;
-  justify-content: flex-end;
-}
-.FooterRegion img{
- padding-top: 10px;
-}
-.FooterRegion a{
-  color: grey;
-  text-decoration: none;
-  margin-top: 8px;
-  padding-left: 4px;
-}
-.FooterRegion a:hover{
-  text-decoration: underline;
-}
-.FooterBorder{
-  border-right: 1px solid lightgrey;
-  padding-right: 31px;
-}
-@media screen and (max-width: 720px){ /* smartphones à écran HD et moins*/
-
-}
-@media screen and (min-width: 721px) and (max-width: 1024px){ /* anciens laptops ~2004 */
-
-}
-@media screen and (min-width: 1025px) and (max-width: 1080px){ /* smartphones à écran entre HD+ et FullHD */
-  footer{
-    margin-top: 30px;
-  }
-  .FooterList{
-    flex-direction: column;
-    align-items: center;
-    font-size: 9px;
-  }
-  .FooterBottom3 a{
-    font-size: 9px;
-  }
-  .FooterBottom1, .FooterBottom2{
-    font-size: 9px;
-  }
-  .FooterBottom3{
-    font-size: 9px;
-  }
-  .FooterBorder{
-    padding-right: 31px;
-  }
-  .FooterRegion img{
-    padding-top: 9px;
-  }
-}
-@media screen and (min-width: 1081px) and (max-width: 1280px){ /* anciens laptops <2008 */
-  .FooterList{
-    font-size: 9px;
-  }
-  .FooterBottom3 a{
-    font-size: 9px;
-  }
-  .FooterBottom1, .FooterBottom2{
-    font-size: 9px;
-  }
-  .FooterBottom3{
-    font-size: 9px;
-  }
-  .FooterBorder{
-    padding-right: 31px;
-  }
-  .FooterRegion img{
-    padding-top: 9px;
-  }
-}
-@media screen and (min-width: 1281px) and (max-width: 1366px){ /* anciens laptops <2015 */
-  /* 1ers footer et header codés sur cette résolution = baseline*/
-}
-@media screen and (min-width: 1367px) and (max-width: 1600px){ /* anciens laptops haut de gamme <2010 */
-  
-}
-@media screen and (min-width: 1601px) and (max-width: 1920px){ /* standard laptop and desktop */
-  .FooterList{
-    font-size: 12px;
-  }
-  .FooterBottom3 a{
-    font-size: 12px;
-  }
-  .FooterBottom1, .FooterBottom2{
-    font-size: 12px;
-  }
-  .FooterBottom3{
-    font-size: 12px;
-  }
-  .FooterBorder{
-    padding-right: 57px;
-  }
-  .FooterRegion img{
-    padding-top: 12px;
-  }
-}
-@media screen and (min-width: 1921px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */
-
-}
-
-/* page specs */
-
+/*
+HEADER
+ */
 
 header{
   display: flex;
@@ -322,3 +59,174 @@ header{
   height: 25px;
   margin-top: 12px;
 }
+
+/*
+FOOTER
+ */
+
+ footer{
+   background-color: #000000;
+   padding-bottom: 13px;
+ }
+ footer a{
+   text-decoration: none;
+   color: grey;
+ }
+ footer a:hover{
+   text-decoration: underline;
+   color: #EFEFEF;
+ }
+ footer div p a{
+   text-decoration: none;
+   color: #0070C9;
+ }
+ footer div p a:hover{
+   text-decoration: underline;
+   color: #0070CE;
+ }
+ .FooterBottom3 a{
+   font-size: 10px;
+   color: grey;
+   text-decoration: none;
+ }
+ .FooterBottom3 a:hover{
+   text-decoration: underline;
+ }
+ .FooterList{
+   display: flex;
+   justify-content: center;
+   font-size: 10px;
+ }
+ .FirstListingFooter{
+   font-family: 'helvetica';
+   list-style: none;
+   color: #EFEFEF;
+   font-weight: bold;
+ }
+ .ListingFooter{
+   list-style: none;
+ }
+ .FooterBottom2{
+   border-top: 1px solid lightgrey;
+   border-top-width: 90%;
+ }
+ .FooterBottom1, .FooterBottom2{
+   font-size: 10px;
+   color: #494949;
+   display: flex;
+   justify-content: space-between;
+ }
+ .FooterBottom3{
+   font-size: 10px;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+ }
+ .FooterRegion{
+   display: flex;
+   justify-content: flex-end;
+ }
+ .FooterRegion img{
+  padding-top: 10px;
+ }
+ .FooterRegion a{
+   color: grey;
+   text-decoration: none;
+   margin-top: 8px;
+   padding-left: 4px;
+ }
+ .FooterRegion a:hover{
+   text-decoration: underline;
+ }
+ .FooterBorder{
+   border-right: 1px solid lightgrey;
+   padding-right: 31px;
+ }
+
+ .FooterBackground{
+   line-height: 2;
+   width: 65%;
+   margin: 0px auto;
+ }
+
+ @media screen and (max-width: 720px){ /* smartphones à écran HD et moins*/
+
+ }
+ @media screen and (min-width: 721px) and (max-width: 1024px){ /* anciens laptops ~2004 */
+
+ }
+ @media screen and (min-width: 1025px) and (max-width: 1080px){ /* smartphones à écran entre HD+ et FullHD */
+   footer{
+     margin-top: 30px;
+   }
+   .FooterList{
+     flex-direction: column;
+     align-items: center;
+     font-size: 9px;
+   }
+   .FooterBottom3 a{
+     font-size: 9px;
+   }
+   .FooterBottom1, .FooterBottom2{
+     font-size: 9px;
+   }
+   .FooterBottom3{
+     font-size: 9px;
+   }
+   .FooterBorder{
+     padding-right: 31px;
+   }
+   .FooterRegion img{
+     padding-top: 9px;
+   }
+ }
+ @media screen and (min-width: 1081px) and (max-width: 1280px){ /* anciens laptops <2008 */
+   .FooterList{
+     font-size: 9px;
+   }
+   .FooterBottom3 a{
+     font-size: 9px;
+   }
+   .FooterBottom1, .FooterBottom2{
+     font-size: 9px;
+   }
+   .FooterBottom3{
+     font-size: 9px;
+   }
+   .FooterBorder{
+     padding-right: 31px;
+   }
+   .FooterRegion img{
+     padding-top: 9px;
+   }
+ }
+
+ @media screen and (min-width: 1281px) and (max-width: 1366px){ /* anciens laptops <2015 */
+   /* 1ers footer et header codés sur cette résolution = baseline*/
+ }
+ @media screen and (min-width: 1367px) and (max-width: 1600px){ /* anciens laptops haut de gamme <2010 */
+
+ }
+ @media screen and (min-width: 1601px) and (max-width: 1920px){ /* standard laptop and desktop */
+   .FooterList{
+     font-size: 12px;
+   }
+   .FooterBottom3 a{
+     font-size: 12px;
+   }
+   .FooterBottom1, .FooterBottom2{
+     font-size: 12px;
+   }
+   .FooterBottom3{
+     font-size: 12px;
+   }
+   .FooterBorder{
+     padding-right: 57px;
+   }
+   .FooterRegion img{
+     padding-top: 12px;
+   }
+ }
+ @media screen and (min-width: 1921px){ /* vers ultra hautes définitions, 1440p, 4k, peu communes */
+
+ }

@@ -1,0 +1,71 @@
+section{
+  margin-bottom: 200px;
+}
+
+h1{
+  font-size: 80px;
+  text-align: center;
+}
+
+h2{
+  font-size: 60px;
+  text-align: center;
+}
+
+h3{
+  font-size: 40px;
+  font-family: 'SF';
+}
+
+p{
+  font-size: 20px;
+}
+
+.indexContainer{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.indexHeader, .musics, .soundLink{
+  text-align: center;
+}
+
+.firstImg{
+    height:1000px;
+    width: auto;
+}
+
+.firstP{
+  text-align: center;
+  font-size: 30px;
+}
+
+.soundLink a{
+  color:#0070C9;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'SF';
+}
+
+.imgAndText{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textRight{
+  padding-left: 50px;
+}
+
+.textLeft{
+  padding-right: 50px;
+}
+
+.indexSiri h3{
+  text-align: right;
+}
+
+#musics{
+  width:90%;
+  height: auto;
+}

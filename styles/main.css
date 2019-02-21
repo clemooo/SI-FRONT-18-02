@@ -56,18 +56,12 @@ nav{
 
 
 nav li a.current, nav li a:hover{
-<<<<<<< HEAD
-  padding-bottom: 15px;
-  border-bottom:3px solid  #0070C9;
-  display: inline;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
   will-change: auto;
-=======
   padding-bottom: 30px;
   border-bottom: 3px solid  #0070C9;
   display: flex;
->>>>>>> 3bd5a7de4e24085a4039c038083110e508b0a6ad
 }
 
 nav ul{

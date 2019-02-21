@@ -82,7 +82,9 @@ nav img{
 }
 .Enconstruction {
   text-align: center;
-  color :#0070C9;
+  color : white;
+  font-size : 40px;
+  margin-top : 330px;
 }
 .imgLink:hover {
 color:#0070C9;

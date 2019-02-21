@@ -71,9 +71,21 @@ nav ul{
   margin-right: 220px;
 }
 
+/* 4 sections en bas de page*/
+
+.fourContainer{
+  display: flex;
+  justify-content: center;
+  padding-top: 4;
+  padding-bottom: 56;
+  margin:100px auto;
+}
+
 
 .mini_article{
   width: 220px;
+  margin-top:10px;
+  align-items: stretch;
   text-align: center;
   position:relative;
   padding:10px;

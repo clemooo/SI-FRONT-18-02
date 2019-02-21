@@ -1,0 +1,52 @@
+@font-face{
+  font-family: 'helvetica';
+  src: url('../fonts/Helvetica.ttf');
+  font-family: 'SF';
+  src: url('../fonts/SFCompactDisplay-Light.otf');
+}
+
+header{
+  background: #373737;
+  font-family: 'SF Display', sans-serif;
+  font-size:14px;
+  color:#EFEFEF;
+  font-weight: normal;
+  padding-left:100px;
+  padding-top: 20px;
+  padding-right: 100px;
+}
+
+img {
+  width: 30px;
+	height: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+nav li a{
+  display: flex;
+  padding:30px 0px;
+  margin:0px 24px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+  font-size:12px;
+  font-weight:bold;
+}
+
+nav{
+  justify-content: flex-end;
+}
+
+
+nav li a.current, nav li a:hover{
+  border-bottom:3px solid  #0070C9;
+  display: inline;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  float: right;
+
+}

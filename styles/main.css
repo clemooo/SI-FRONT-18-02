@@ -58,6 +58,9 @@ header{
   color: #EFEFEF;
   font-family: 'helvetica';
 }
+.HeaderBuyButton:hover {
+  background-color: #178DFF;
+}
 .HeaderBuyButton{
   height: 24px;
   margin-top: 20px;

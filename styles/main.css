@@ -72,6 +72,10 @@ nav img{
   padding-top: 10px;
 }
 
+.imgLink:hover {
+color:#0070C9;
+text-decoration:none;
+}
 /*
 FOOTER
  */

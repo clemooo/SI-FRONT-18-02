@@ -40,11 +40,18 @@ p{
   font-size: 30px;
 }
 
+.soundLinkImg{
+  position: relative;
+}
+
 .soundLink a{
-  color:#0070C9;
+  color:#000;
+  font-weight: bold;
   text-decoration: none;
   font-size: 40px;
-  font-family: 'SF';
+  position: absolute;
+  left: 15%;
+  top: 40%;
 }
 
 .imgAndText{

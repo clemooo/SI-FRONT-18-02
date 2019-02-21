@@ -80,7 +80,10 @@ nav img{
   height: 80%;
   padding-top: 10px;
 }
-
+.Enconstruction {
+  text-align: center;
+  color :#0070C9;
+}
 .imgLink:hover {
 color:#0070C9;
 text-decoration:none;
